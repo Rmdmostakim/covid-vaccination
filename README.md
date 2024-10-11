@@ -18,6 +18,9 @@ Follow these steps to get your application up and running:
    ```bash
    cp .env .env.example
    ```
+   ```bash
+   php artisan key:generate
+   ```
 
 3. **Set Up Database Credentials**  
    Open the `.env` file and add your data base credentials, including:
